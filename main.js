@@ -35,4 +35,11 @@ window.onscroll = () => {
     // remove toggle icon and navbar when click
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
+
 }
+
+const btn = document.getElementById('alertBtn')
+
+btn.addEventListener('click', () =>{
+    alert('Message Sent')
+})
