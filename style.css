@@ -96,7 +96,7 @@ section{
     height: 270px;
     width: 270px;
     padding: 1rem;
-    margin-left: 23%;
+    margin-left: 20%;
     border: solid var(--main-color) 2px;
 }
 
@@ -861,4 +861,5 @@ span{
     100%{
         transform: translate(-50%, -50%) rotate(360deg);
     }
+
 }
